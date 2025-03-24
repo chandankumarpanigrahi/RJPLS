@@ -116,7 +116,7 @@
     <div class="dev_info container-fluid">
         <div class="container developer_text text-center">Designed and Developed by <a class="ps-1" href="https://lluminity.com/" target="_blank">Web Lluminity Technologies</a></div>
     </div>
-<!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
     <!-- jQuery (must be first) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Popper.js -->
