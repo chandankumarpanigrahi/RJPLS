@@ -944,7 +944,9 @@ a {
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
@@ -961,6 +963,7 @@ a {
     background: linear-gradient(0deg, rgb(168 68 9) 0%, rgb(208 100 36) 100%);
     color: #fff;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .btn-11:hover {
@@ -1171,10 +1174,22 @@ a {
     padding: 2rem 0;
     border-top: 2px solid #c8c8c8;
     border-bottom: 2px solid #c8c8c8;
-    /* background-image: url(http://localhost/rjpls/assets/css/../img/count_img.jpg); */
-    background-size: cover;
+    background-image: url(../img/count_img.jpg);
+    background-image: url(../img/counter_bg.png);
+    background-size: 50%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    position: relative;
+}
+
+.all_counts::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #fffcfadb;
+    z-index: 2;
+    inset: 0;
 }
 
 .counter_card {
@@ -1193,6 +1208,7 @@ a {
     position: absolute;
     left: 30%;
     top: 10%;
+    z-index: 5;
 }
 
 .counter_card h1 {
@@ -1209,7 +1225,7 @@ a {
     font-size: 1.2rem;
 }
 
-.counter_card.card_1 i{
+.counter_card.card_1 i {
     color: #ffe6c8;
 }
 
@@ -1218,7 +1234,7 @@ a {
     color: #76460e;
 }
 
-.counter_card.card_2 i{
+.counter_card.card_2 i {
     color: #c8eaff;
 }
 
@@ -1227,7 +1243,7 @@ a {
     color: #156a9f;
 }
 
-.counter_card.card_3 i{
+.counter_card.card_3 i {
     color: #d1edd7;
 }
 
@@ -1236,11 +1252,86 @@ a {
     color: #25923c;
 }
 
-.counter_card.card_4 i{
+.counter_card.card_4 i {
     color: #ecede5;
 }
 
 .counter_card.card_4 h1,
 .counter_card.card_1 p {
     color: #6e7720;
+}
+
+/* event card */
+.all_event_cards{
+    justify-content: center;
+}
+
+.event_card{
+    border: 2px solid #610808;
+    border-radius: 0.45rem;
+    overflow: hidden;
+    padding: 0.6rem;
+}
+
+.event_card img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.event_card .event_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.event_card .event_details h3 {
+    font-size: 1.4rem !important;
+    color: #610808;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: 3.2rem;
+}
+
+.event_card .event_details summary {
+    color: #717171;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: 5.6rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.event_card .event_details p {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #9d4313;
+}
+
+.event_card .event_details a {
+    text-decoration: none;
+    color: #fff;
+    background: #610808;
+    font-size: 1rem;
+    padding: 0.35rem;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+
+.slider_left,
+.slider_right{
+    color: #610808;
+    font-size: 1.5rem;
 }
