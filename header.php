@@ -8,8 +8,14 @@
     <link rel="icon" type="image/x-icon" href="./assets/img/logo_png.jpg">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./assets/plugins/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <!-- DataTables JS CDN -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
     <!-- UI Kit -->
     <link rel="stylesheet" href="./assets/plugins/uikit/css/uikit.css">
     <!-- Font Awesome Icon -->
@@ -28,7 +34,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="header_body">
-                        <a href="./index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <img src="./assets/img/rjpls logo.png" alt="">
                         </a>
                         <!-- This is with button tag -->
@@ -52,10 +58,10 @@
                     </div>
                 </div>
                 <ul class="nav-menu" id="nav-menu">
-                    <li class="nav-item active"><a href='#' class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href='#' class="nav-link">About</a></li>
+                    <li class="nav-item active"><a href='index.php' class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href='about.php' class="nav-link">About</a></li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Board Members <i class="fa fa-chevron-down"></i></a>
+                        <a href="members.php" class="nav-link">Board Members <i class="fa fa-chevron-down"></i></a>
                         <ul class="submenu">
                             <li><a href='#'>Editorial Board</a></li>
                             <li><a href='#'>Advisory Board</a></li>
@@ -69,7 +75,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Archive <i class="fa fa-chevron-down"></i></a>
+                        <a href="archive.php" class="nav-link">Archive <i class="fa fa-chevron-down"></i></a>
                         <ul class="submenu">
                             <li><a href='#'>2025</a></li>
                             <li><a href='#'>2024</a></li>
@@ -85,7 +91,7 @@
                             <li><a href='#'>Notice</a></li>
                             <li><a href='#'>Code of Ethics</a></li>
                             <li><a href='#'>Peer Review Process</a></li>
-                            <li><a href='#'>FAQs</a></li>
+                            <li><a href='faqs.php'>FAQs</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a href='#' class="nav-link">Gallery</a></li>

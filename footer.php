@@ -116,18 +116,25 @@
     <div class="dev_info container-fluid">
         <div class="container developer_text text-center">Designed and Developed by <a class="ps-1" href="https://lluminity.com/" target="_blank">Web Lluminity Technologies</a></div>
     </div>
-
-    <script src="./assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+<!-- JavaScript Libraries -->
+    <!-- jQuery (must be first) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- Bootstrap -->
     <script src="./assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- UI Kit -->
     <script src="./assets/plugins/uikit/js/uikit.min.js"></script>
+    <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Fancybox -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js"></script>
+    <!-- Prefix Free -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
     <!-- Loader JS -->
     <script type="text/javascript">
         $(window).on("load", function () {
