@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>International Conference-cum-Workshop</title>
+    <title>RESEARCH JOURNAL OF PHARMACY AND LIFE SCIENCES</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/logo_png.jpg">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -31,7 +31,11 @@
                         <a href="./index.html" class="logo">
                             <img src="./assets/img/rjpls logo.png" alt="">
                         </a>
-                        <button class="custom-btn btn-11 ms-auto">Admin Login</button>
+                        <!-- This is with button tag -->
+                        <!-- <button class="custom-btn btn-11 ms-auto">Admin Login</button> -->
+                        
+                        <!-- This is with anchor tag -->
+                        <a class="custom-btn btn-11 ms-auto" href="#">Admin Login</a>
                     </div>
                 </div>
             </div>
