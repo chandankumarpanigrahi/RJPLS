@@ -85,18 +85,17 @@
                             <li><a href='#'>2020</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item"><a href='gallery.php' class="nav-link">Gallery</a></li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Others <i class="fa fa-chevron-down"></i></a>
                         <ul class="submenu">
                             <li><a href='#'>Notice</a></li>
-                            <li><a href='#'>Code of Ethics</a></li>
-                            <li><a href='#'>Peer Review Process</a></li>
+                            <li><a href='ethics.php'>Code of Ethics</a></li>
+                            <li><a href='peer_review.php'>Peer Review Process</a></li>
                             <li><a href='faqs.php'>FAQs</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a href='#' class="nav-link">Gallery</a></li>
-                    <li class="nav-item"><a href='#' class="nav-link">Contact Us</a></li>
-                    <!-- <li class="nav-item activated"><a href='#' class="nav-link">User Login</a></li> -->
+                    <li class="nav-item"><a href='contact_us.php' class="nav-link">Contact Us</a></li>
                 </ul>
             </nav>
         </div>

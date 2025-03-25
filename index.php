@@ -1,4 +1,4 @@
-    <?php
+<?php
    $currentPage = 'Home';
    include 'header.php';
 ?>
@@ -20,13 +20,6 @@
             <a class="uk-position-center-right uk-position-small  slider_arrow" href uk-slidenav-next uk-slideshow-item="next"></a>
         </div>
     </div>
-    <section class="container" id="book_on_mobile" style="display: none;">
-        <div class="book_buttons mb-5">
-            <button class="custom-btn btn-11"
-                onclick="redirectToLink('https://docs.google.com/forms/d/e/1FAIpQLSeTlKYTOAVnd5RcPIOjvaD-NZG82VUqTKAWWyL7OklrjA16xQ/viewform')">BOOK
-                SLOT<div class="dot"></div></button>
-        </div>
-    </section>
     <section class="container mt-3">
         <div class="left_card" id="about">
             <div class="card_details card_1">
@@ -255,7 +248,7 @@
                 <div class="row">
                     <div class="col md-12">
                         <div class="d-flex align-items-center justify-content-center">
-                            <a href="#" class="view_all">View All</a>
+                            <a href="archive.php" class="view_all">View All</a>
                         </div>
                     </div>
                 </div>

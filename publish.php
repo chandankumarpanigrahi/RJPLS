@@ -12,12 +12,14 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="dataTable">
-                        <table id="example" class="table table-striped" style="width:100%">
+                    <div class="dataTable table-responsive">
+                        <table id="example" class="table dataTable table-striped table-borderless" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Sl No.</th>
-                                    <th>Book Name</th>
+                                    <th class="book_name">
+                                        Book Name
+                                    </th>
                                     <th>Authors</th>
                                     <th>Page Number</th>
                                     <th>Action</th>
@@ -26,7 +28,9 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Co-Processed Excipients: Unlocking the Potential of Direct Compression in Pharmaceutical Formulation Development</td>
+                                    <td class="book_name">
+                                        Co-Processed Excipients: Unlocking the Potential of Direct Compression in Pharmaceutical Formulation Development
+                                    </td>
                                     <td>
                                         <ul class="d-flex flex-column">
                                             <li>Maddukuri Laxmi Bharani</li>
@@ -38,7 +42,47 @@
                                     <td>01-10</td>
                                     <td>
                                         <div class="d-flex">
-                                            <button class="btn btn-primary">View</button>
+                                            <button class="btn btn-table-view">View</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td class="book_name">
+                                        Co-Processed Excipients: Unlocking the Potential of Direct Compression in Pharmaceutical Formulation Development
+                                    </td>
+                                    <td>
+                                        <ul class="d-flex flex-column">
+                                            <li>Maddukuri Laxmi Bharani</li>
+                                            <li>Arun Kumar Patra</li>
+                                            <li>Dipty Rani Nayak</li>
+                                            <li>Prasanta Kumar Choudhury</li>
+                                        </ul>
+                                    </td>
+                                    <td>01-10</td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <button class="btn btn-table-view">View</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="book_name">
+                                        Co-Processed Excipients: Unlocking the Potential of Direct Compression in Pharmaceutical Formulation Development
+                                    </td>
+                                    <td>
+                                        <ul class="d-flex flex-column">
+                                            <li>Maddukuri Laxmi Bharani</li>
+                                            <li>Arun Kumar Patra</li>
+                                            <li>Dipty Rani Nayak</li>
+                                            <li>Prasanta Kumar Choudhury</li>
+                                        </ul>
+                                    </td>
+                                    <td>01-10</td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <button class="btn btn-table-view">View</button>
                                         </div>
                                     </td>
                                 </tr>
