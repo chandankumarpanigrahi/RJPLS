@@ -364,13 +364,13 @@ a {
     font-weight: 500;
 }
 
-.event_sub_heading{
+.event_sub_heading {
     font-size: 1.5rem;
     color: #610808;
     font-weight: 500;
 }
 
-.event_mid_heading{
+.event_mid_heading {
     font-size: 1.3rem;
     color: #b8541d;
     font-weight: 500;
@@ -1635,7 +1635,7 @@ footer {
 
 .contact-page-form input {
     background: #f9f9f9 none repeat scroll 0 0;
-        border: 2px solid #341d00;
+    border: 2px solid #341d00;
     margin-bottom: 20px;
     padding: 12px 16px;
     width: 100%;
@@ -1650,7 +1650,7 @@ footer {
 
 .single-input-field textarea {
     background: #f9f9f9 none repeat scroll 0 0;
-        border: 2px solid #341d00;
+    border: 2px solid #341d00;
     width: 100%;
     height: 120px;
     padding: 12px 16px;
@@ -1670,9 +1670,9 @@ footer {
 }
 
 .single-input-fieldsbtn input[type="submit"]:hover {
-    background: #5c3402 ;
+    background: #5c3402;
     transition: all 0.4s ease-in-out 0s;
-    border-color: #5c3402 
+    border-color: #5c3402
 }
 
 .single-input-field h4 {
@@ -1693,4 +1693,43 @@ footer {
 
 .contact-page-form form {
     padding: 20px 15px 0;
+}
+
+/* Event Details Page */
+.event_details_page {
+    margin-bottom: 1rem;
+}
+
+.event_details_page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+}
+
+.event_details_page img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.event_details_page p {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #9d4313;
+}
+
+.event_details_page .event_details_desc {
+    font-size: 1.05rem;
+    color: #666565;
+}
+
+.event_details_page a {
+    text-decoration: none;
+    color: #fff;
+    background: #610808;
+    font-size: 1rem;
+    padding: 0.35rem 1rem;
+    text-align: center;
+    border-radius: 0.25rem;
 }
